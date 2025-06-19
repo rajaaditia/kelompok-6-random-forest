@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # LANGKAH 2: Load Dataset (upload dulu HIV_dataset.csv ke Colab)
-df = pd.read_csv('/content/HIV_dataset.csv')
+df = pd.read_csv('HIV_dataset.csv')
 
 # LANGKAH 3: Ambil 20% data acak dari total data
 df_sample = df.sample(frac=0.2, random_state=42).reset_index(drop=True)
